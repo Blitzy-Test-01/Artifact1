@@ -1,8 +1,18 @@
 {
   "name": "artifact1",
   "version": "1.0.0",
-  "description": "Node.js Express server exposing greeting endpoints (GET / -> \"Hello world\", GET /good-evening -> \"Good evening\").",
+  "description": "Minimal Node.js HTTP server built with Express 5 exposing two plain-text greeting endpoints (GET / -> \"Hello world\", GET /good-evening -> \"Good evening\").",
   "main": "src/index.js",
+  "keywords": [
+    "express",
+    "nodejs",
+    "http",
+    "server",
+    "rest-api",
+    "tutorial",
+    "greeting"
+  ],
+  "license": "MIT",
   "scripts": {
     "start": "node src/index.js"
   },
